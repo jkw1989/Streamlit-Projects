@@ -30,7 +30,7 @@ if uploaded_file is not None:
 
     st.subheader("Plot Data")
     x_column = st.selectbox("Select x-axis Column", columns)
-    y_column = st.selectbox("Select y-axis Column",columns)
+    y_column = st.selectbox("Select y-axis Column", columns)
 
     if st.button("Generate Plot"):
         st.write("All the values for "+selected_value)
