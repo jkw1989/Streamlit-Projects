@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd 
 
 
-st.write("hello world")
+st.write("Run quick analysis on a single CSV file")
 
-st.header("My new Dashboard")
+st.header("File upload and Summarize")
 
 uploaded_file = st.file_uploader("Choose a CSV File",type="csv")
 
